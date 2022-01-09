@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@100;200;300;500&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;0,900;1,600;1,800&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech&family=Ubuntu:ital,wght@0,300;0,500;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.custom-container {
+    max-width: 1300px !important;
+    margin: 0 auto;
+}
+
+.button-one {
+    background-color: #D2202C;
+    color: #fff;
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 0px 100px 0px 0px;
+    font-weight: 500;
+}
+.button-one:hover{
+    color: #fff;
+}
+
+/* header start*/
+.nav-link {
+    font-weight: 500;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    box-shadow: 5px 5px 13px 0px grey;
+}
+.shop-now-main{
+    position: relative;
+}
+
+.shop-now {
+    background-color: #FCAC23;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: -8px;
+    left: -20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    outline: 4px solid #FCAC23;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+/* header end*/
