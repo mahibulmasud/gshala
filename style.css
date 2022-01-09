@@ -2,17 +2,16 @@
 
 body {
     font-family: 'Roboto', sans-serif !important;
+    font-weight: 400 !important;
 }
 
 a {
     text-decoration: none !important;
 }
 
-.custom-container {
-    max-width: 1300px !important;
-    margin: 0 auto;
+.container{
+    max-width: 1250px !important;
 }
-
 .button-one {
     background-color: #D2202C;
     color: #fff;
@@ -21,13 +20,15 @@ a {
     border-radius: 0px 100px 0px 0px;
     font-weight: 500;
 }
-.button-one:hover{
+
+.button-one:hover {
     color: #fff;
 }
 
 /* header start*/
 .nav-link {
     font-weight: 500;
+    padding-left: 20px !important;
 }
 
 .navbar-brand img {
@@ -36,7 +37,8 @@ a {
     object-fit: contain;
     box-shadow: 5px 5px 13px 0px grey;
 }
-.shop-now-main{
+
+.shop-now-main {
     position: relative;
 }
 
@@ -45,13 +47,124 @@ a {
     height: 40px;
     width: 40px;
     position: absolute;
-    top: -8px;
+    top: 0px;
     left: -20px;
-    padding: 10px;
-    border: 1px solid #fff;
+    padding: 7px;
+    border: 2px solid #FCD590;
     outline: 4px solid #FCAC23;
     border-radius: 20px;
     object-fit: contain;
 }
 
 /* header end*/
+
+/* footer start */
+footer {
+    background: #616161;
+    color: #fff;
+}
+.footer-div{
+    row-gap: 50px;
+}
+.whats-app-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.form-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.custom-input {
+    border-radius: 15px;
+    border: 0px;
+    padding: 5px 0px 5px 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.custom-input::placeholder {
+    color: #000;
+    font-weight: 500;
+}
+
+.live-chat-header {
+    background-color: #EF4D26;
+    padding: 10px 10px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    margin-left: -3px !important;
+    margin-right: -3px !important;
+}
+
+.live-chat-icon {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+.chat-main{
+    width: 90%;
+    margin: 0 auto;
+}
+.chat-body {
+    background: #fff;
+    height: 250px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+}
+
+.chat-body .left-p {
+    position: absolute;
+    bottom: 95px;
+    left: 10px;
+    color: #000;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.chat-body .right-p {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #000;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.chat-footer{
+    background: #fff;
+}
+.chat-input {
+    padding: 25px 15px;
+    width: 100%;
+    border: 0px;
+    border-top: 1px solid grey;
+}
+.chat-input:focus{
+   outline: 0;
+}
+
+.follow-us-icon{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+/* footer end */
+
+/* responsive design */
+@media only screen and (max-width: 600px) {
+    .chat-main {
+        width: 100%;
+    }
+  }
+/* responsive design */
