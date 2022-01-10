@@ -26,6 +26,10 @@ a {
     color: #fff;
 }
 
+.card {
+    border: 0 !important;
+}
+
 /* header start*/
 .nav-link {
     font-weight: 500;
@@ -61,8 +65,8 @@ a {
 /* section-1 start  */
 .section-1 {
     background-color: #FBAC23;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #fff;
 }
 
@@ -91,6 +95,87 @@ a {
 }
 
 /* section-1 end */
+/* section-2 start */
+.section-2 {
+    background-color: #fff;
+}
+
+.section-2-card img {
+    height: 300px;
+    border-radius: 20px 20px 0px 0px !important;
+    object-fit: fill;
+}
+
+.section-2-card-body {
+    border-left: 1px dashed #6F7072;
+    border-right: 1px dashed #6F7072;
+    border-bottom: 1px dashed #6F7072;
+    padding: 1rem 2rem !important;
+}
+
+.s2-card-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.s2-card-btn {
+    padding: 10px 20px;
+    background-color: #EE2424;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.s2-card-btn:hover {
+    color: #fff;
+}
+
+/* section-2 end */
+/* section-3 star */
+.section-3 {
+    background-color: transparent;
+}
+
+.s3-container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.s3-part2 {
+    padding-top: 50px;
+    background-color: #EF4D26;
+    display: grid;
+    align-items: center;
+}
+
+.s3-card {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.s3-card-body {
+    padding: 10px 0px !important;
+}
+
+/* owl css overright */
+.np-icon {
+    position: absolute;
+    top: 60px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.nexticon {
+    right: -70px;
+    transform: rotate(180deg);
+}
+
+.previcon {
+    left: -70px;
+}
+/* owl css overright */
+
+/* section-3 end */
+
 /* footer start */
 footer {
     background: #616161;
@@ -202,11 +287,18 @@ footer {
 /* footer end */
 
 /* responsive design */
+@media only screen and (max-width: 768px) {
+    .s2-row {
+        row-gap: 50px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .chat-main {
         width: 100%;
     }
-    .section-1{
+
+    .section-1-row {
         row-gap: 50px;
     }
 }
