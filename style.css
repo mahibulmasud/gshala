@@ -32,6 +32,32 @@ a {
 }
 
 /* header start*/
+header {
+    position: relative;
+}
+
+#active-ml-btn {
+    background-color: #616161;
+    color: #fff;
+}
+
+.mul-btn {
+    color: #616161;
+    background-color: #fff;
+}
+
+.multilang-main-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border: 1px solid #616161;
+}
+
+.multilang-main-div button {
+    border: 0;
+}
+
 .nav-link {
     font-weight: 500;
     padding-left: 20px !important;
@@ -46,6 +72,12 @@ a {
 
 .shop-now-main {
     position: relative;
+    transform: rotate(0deg);
+    transition: all 0.3s;
+}
+
+.shop-now-main:hover {
+    transform: rotate(-5deg);
 }
 
 .shop-now {
@@ -75,9 +107,10 @@ a {
     border: 2px solid #EF4D26 !important;
 }
 
-.carousel-indicators .active{
+.carousel-indicators .active {
     background-color: #616161 !important;
 }
+
 .second-custom-carosel-indicator {
     height: 20px !important;
     width: 20px !important;
@@ -111,6 +144,12 @@ a {
 .donate-now-main {
     position: relative;
     margin-top: 40px;
+    transform: rotate(0deg);
+    transition: all 0.3s;
+}
+
+.donate-now-main:hover {
+    transform: rotate(-5deg);
 }
 
 .donate-now {
@@ -214,6 +253,34 @@ a {
 /* owl css overright */
 
 /* section-3 end */
+
+/* section-4 start */
+.section-4 {
+    background-color: #fff;
+}
+
+.l-cow {
+    position: absolute;
+    top: -24px;
+    right: 10px;
+    width: 160px;
+    object-fit: contain;
+}
+
+.s4-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: #616161;
+}
+
+.s4-body {
+    background-color: #EDEDED;
+    padding: 50px;
+}
+
+/* section-4 end */
 
 /* footer start */
 footer {
@@ -359,6 +426,25 @@ footer {
 
     .section-1-row {
         row-gap: 50px;
+    }
+
+    .l-cow {
+        position: absolute;
+        top: -13px;
+        right: 10px;
+        width: 88px;
+        object-fit: contain;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .l-cow {
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        width: 63px;
+        object-fit: contain;
     }
 }
 
