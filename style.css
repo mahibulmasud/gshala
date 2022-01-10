@@ -279,7 +279,12 @@ header {
     background-color: #EDEDED;
     padding: 50px;
 }
-
+.s4-img{
+    object-fit: contain;
+}
+.s4-row{
+    row-gap: 20px;
+}
 /* section-4 end */
 
 /* footer start */
@@ -436,6 +441,11 @@ footer {
         object-fit: contain;
     }
 
+    .first-custom-carosel-indicator {
+        height: 50px !important;
+        width: 50px !important;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -510,11 +520,24 @@ footer {
 
 @media only screen and (max-width: 375px) {
     .previcon {
-        display: none;
+        left: -10px;
     }
 
     .nexticon {
-        display: none;
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .np-icon {
+        width: 30px;
+    }
+    .previcon {
+        left: 10px;
+    }
+
+    .nexticon {
+        right: 10px;
     }
 }
 
