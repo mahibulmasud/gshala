@@ -2,7 +2,7 @@ const nextIcon = '<img src="../images/prev-btn.png" class="nexticon np-icon"/>  
 const prevIcon = '<img src="../images/prev-btn.png" class="previcon np-icon"/> ';
 
 $('.owl-carousel').owlCarousel({
-    loop: false,
+    loop: true,
     items: 3,
     margin: 50,
     nav: true,
@@ -16,10 +16,13 @@ $('.owl-carousel').owlCarousel({
       0: {
         items: 1
       },
-      768: {
+      600: {
         items: 2
       },
-      1000: {
+      768: {
+        items: 3
+      },
+      1300: {
         items: 3
       },
       1400:{

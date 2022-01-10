@@ -72,7 +72,6 @@ a {
 
 .donate-now-main {
     position: relative;
-    left: 24px;
     margin-top: 40px;
 }
 
@@ -92,6 +91,7 @@ a {
 
 .donate-btn {
     background-color: #F8981D;
+    margin-left: 20px;
 }
 
 /* section-1 end */
@@ -172,6 +172,7 @@ a {
 .previcon {
     left: -70px;
 }
+
 /* owl css overright */
 
 /* section-3 end */
@@ -304,3 +305,67 @@ footer {
 }
 
 /* responsive design */
+
+/* owl slider setup resposive */
+@media only screen and (max-width: 1300px) {
+    .s3-container {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .s3-container {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .s3-container {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .s3-container {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .s3-container {
+        width: 400px;
+    }
+    .previcon {
+        left: -45px;
+    }
+    .nexticon{
+        right: -45px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .s3-container {
+        width: 300px;
+    }
+
+    .s3-card {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .previcon {
+        left: -25px;
+    }
+    .nexticon{
+        right: -25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .previcon {
+        display: none;
+    }
+    .nexticon{
+        display: none;
+    }
+}
+
+/* owl slider setup resposive */
