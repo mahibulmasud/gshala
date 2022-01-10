@@ -28,6 +28,7 @@ a {
 
 .card {
     border: 0 !important;
+    background-color: transparent !important;
 }
 
 /* header start*/
@@ -59,6 +60,43 @@ a {
     outline: 4px solid #FCAC23;
     border-radius: 20px;
     object-fit: contain;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none !important;
+}
+
+.first-custom-carosel-indicator {
+    height: 100px !important;
+    width: 100px !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #EF4D26 !important;
+}
+
+.carousel-indicators .active{
+    background-color: #616161 !important;
+}
+.second-custom-carosel-indicator {
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+    border: 3px solid #616161 !important;
+    background-color: #fff;
+}
+
+.first-indicator {
+    bottom: -150px !important;
+}
+
+.second-indicator {
+    bottom: -200px !important;
+}
+
+.header-slider-controller-area {
+    height: 220px;
+    background-color: #fff;
 }
 
 /* header end*/
@@ -288,10 +326,30 @@ footer {
 /* footer end */
 
 /* responsive design */
+@media only screen and (max-width: 1024px) {
+    .nav-link {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .shop-now-main {
+        margin-bottom: 30px;
+        margin-left: 33px;
+        margin-top: 20px;
+    }
+
+    .snm-dontebtn {
+        margin-left: -15px;
+        margin-top: 10px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .s2-row {
         row-gap: 50px;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -335,10 +393,12 @@ footer {
     .s3-container {
         width: 400px;
     }
+
     .previcon {
         left: -45px;
     }
-    .nexticon{
+
+    .nexticon {
         right: -45px;
     }
 }
@@ -352,18 +412,22 @@ footer {
         width: 200px;
         margin: 0 auto;
     }
+
     .previcon {
         left: -25px;
     }
-    .nexticon{
+
+    .nexticon {
         right: -25px;
     }
 }
+
 @media only screen and (max-width: 375px) {
     .previcon {
         display: none;
     }
-    .nexticon{
+
+    .nexticon {
         display: none;
     }
 }
