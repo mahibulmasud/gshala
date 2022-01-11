@@ -2,8 +2,8 @@
 
 
 
-const nextIcon = '<img src="../images/prev-btn.png" class="nexticon np-icon"/>  ';
-const prevIcon = '<img src="../images/prev-btn.png" class="previcon np-icon"/> ';
+const nextIcon = '<div class="nexticon np-icon arrow-right"></div>  ';
+const prevIcon = '<div class="previcon np-icon arrow-left"></div> ';
 
 $('.owl-carousel').owlCarousel({
     loop: true,
