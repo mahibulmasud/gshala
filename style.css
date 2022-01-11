@@ -49,6 +49,7 @@ a {
     border-radius: 20px;
     border: 0;
     font-weight: bold;
+    margin-left: 35px;
 }
 
 .card {
@@ -479,6 +480,15 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .footer-div {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
 @media only screen and (max-width: 768px) {
     .s2-row {
         row-gap: 50px;
@@ -541,6 +551,9 @@ footer {
 @media only screen and (max-width: 1150px) {
     .s3-container {
         width: 800px;
+    }
+    .left-p, .right-p{
+        font-size: 12px;
     }
 }
 
