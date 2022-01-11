@@ -26,6 +26,15 @@ a {
     color: #fff;
 }
 
+.button-submit{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+}
+
 .card {
     border: 0 !important;
     background-color: transparent !important;
