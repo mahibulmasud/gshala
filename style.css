@@ -294,7 +294,9 @@ footer {
 }
 
 .footer-div {
-    row-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px 40px;
 }
 
 .whats-app-icon {
@@ -421,10 +423,17 @@ footer {
     .s2-row {
         row-gap: 50px;
     }
+    .footer-div {
+        grid-template-columns: 1fr 1fr;
+    }
+    
 
 }
 
 @media only screen and (max-width: 600px) {
+    .footer-div {
+        grid-template-columns: 1fr;
+    }
     .chat-main {
         width: 100%;
     }
