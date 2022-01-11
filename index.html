@@ -51,7 +51,7 @@
                   aria-expanded="false">
                   NEWS
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu custom-drop-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item custome-drop-a" href="#">One</a></li>
                   <li><a class="dropdown-item custome-drop-a" href="#">Two</a></li>
                   <li>
@@ -415,6 +415,27 @@
   <script src="function/owlcarousel/owl.carousel.min.js"></script>
 
   <script src="function/function.js"></script>
+
+
+  <style>
+    .dropdown:hover .custom-drop-menu {
+      display: block;
+    }
+
+    .custom-drop-menu {
+      margin-top: 0;
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      $(".dropdown").hover(function () {
+        var dropdownMenu = $(this).children(".custom-drop-menu");
+        if (dropdownMenu.is(":visible")) {
+          dropdownMenu.parent().toggleClass("open");
+        }
+      });
+    });     
+  </script>
 
 </body>
 

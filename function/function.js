@@ -1,16 +1,3 @@
-let carouselIndicatorButtons = document.querySelectorAll('#custom-carousel-indicators button')
-document.querySelectorAll('.carousel').forEach((button) => {
-    button.addEventListener('slid.bs.carousel', function () {
-        let activeIndicator = document.querySelector('.carousel-indicators button.active')
-
-        carouselIndicatorButtons.forEach((button2) => {
-            button2.classList.remove('active')
-        })
-
-        document.querySelector('#custom-carousel-indicators button[data-bs-slide-to="'
-            + activeIndicator.dataset.bsSlideTo + '"]').classList.add('active')
-    });
-});
 
 
 
