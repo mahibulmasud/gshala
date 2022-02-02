@@ -687,4 +687,14 @@ footer {
     margin: 0;
     line-height: 30px;
 }
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url(images/select-icon.jpg);
+    background-position-x: 100%;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
 /* donate page style end */
