@@ -627,3 +627,64 @@ footer {
 }
 
 /* owl slider setup resposive */
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+/* second footer div */
+.second-footer-div {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 100px;
+}
+@media only screen and (max-width: 768px) {
+    .second-footer-div {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .second-footer-div {
+        grid-template-columns: 1fr;
+        grid-gap: 20px 100px;
+    }
+}
+/* second footer div */
+
+
+
+/* donate page style start */
+.donate-title{
+    font-size: 25px;
+    font-weight: 800;
+    color:#231F20;
+}
+
+.input-label{
+    color: #606060 ;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-text{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #606060;
+}
+.input-text:focus{
+    outline: 0;
+}
+.ads-one{
+    background-color: #FCAC23;
+    padding: 40px;
+    margin-top: 33px;
+}
+.ads-one p{
+    font-size: 25px;
+    font-weight: 800;
+    color: #221E1F ;
+    margin: 0;
+    line-height: 30px;
+}
+/* donate page style end */
