@@ -697,4 +697,7 @@ select {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+.about-s2-body{
+    background-color: #fff;
+}
 /* donate page style end */
